@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/reactPortfolio/static/css/main.1e456489.css",
+    "main.js": "/reactPortfolio/static/js/main.9f24d2d0.js",
+    "static/media/CCPhoto.png": "/reactPortfolio/static/media/CCPhoto.24e53930c0f1526dc193.png",
+    "static/media/selfPhoto.jpg": "/reactPortfolio/static/media/selfPhoto.a29682e2058f76d32916.jpg",
+    "static/media/Steven-Kravitz-Resume.pdf": "/reactPortfolio/static/media/Steven-Kravitz-Resume.945502d0a9b9b967e113.pdf",
+    "static/media/eCommPhoto.png": "/reactPortfolio/static/media/eCommPhoto.b31985de9d121d115790.png",
+    "static/media/headShot.jpg": "/reactPortfolio/static/media/headShot.d83c739054ddec908541.jpg",
+    "static/media/textureBackground.png": "/reactPortfolio/static/media/textureBackground.8928d68f319cd772c982.png",
+    "static/media/comingSoon.png": "/reactPortfolio/static/media/comingSoon.5822dd51870cdee0b1bd.png",
+    "index.html": "/reactPortfolio/index.html",
+    "main.1e456489.css.map": "/reactPortfolio/static/css/main.1e456489.css.map",
+    "main.9f24d2d0.js.map": "/reactPortfolio/static/js/main.9f24d2d0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1e456489.css",
+    "static/js/main.9f24d2d0.js"
+  ]
+}
