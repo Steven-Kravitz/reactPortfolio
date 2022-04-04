@@ -1,0 +1,79 @@
+/* -------------Header Styling------------- */
+header {
+    height: 150vh;
+    padding-top: 4rem;
+    overflow: hidden;
+}
+.headerContainer {
+    text-align: center;
+    height: 100%;
+    position: relative;
+}
+
+/* -------------Intro Button Styling------------- */
+
+.introBtn {
+    margin-top: 2.5rem;
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+
+
+#contact{
+    color: white;
+}
+
+/* -------------Image Styling------------- */
+
+/* .selfPhoto {
+    max-width: 100%;
+    height: auto;
+} */
+
+.selfPhoto {
+    width: 22rem;
+    height: 30rem;
+    position: absolute;
+    left: calc(50% - 11rem);
+    margin-top: 2rem;
+    border-radius: 12rem 12rem e 0;
+    overflow: hidden;
+    padding: 2rem 1.5rem 1.5rem 1.5rem
+}
+
+.photoContainer img {
+    border-radius: 26%;
+}
+
+/* -------------Socials Styling------------- */
+
+.socials {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    position: absolute;
+    left: 2.5rem;
+    bottom: 2.5em;
+}
+
+.socialBtns {
+    font-size: 1.5rem;
+}
+
+ 
+ /* ----------------Media Queries (TABLETS)---------------- */
+ @media screen and (max-width: 1024px) {
+     header {
+         height: 68vh;
+     }
+ }
+ 
+  
+ /* ----------------Media Queries (PHONES)---------------- */
+ @media screen and (max-width: 600px) {
+     header{
+         height: 100vh;
+     }
+ }

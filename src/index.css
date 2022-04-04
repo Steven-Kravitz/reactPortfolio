@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+:root {
+    --backgroundColor: rgba(50, 4, 102, 0.952);
+    --backgroundColor2: rgba(119, 44, 240, 0.863);
+    --primaryColor: rgb(101, 21, 206);
+    --secondaryColor: rgb(125, 42, 173);
+    --lightColor: rgba(255,255,255, 0.6);    
+    
+    --container-width-lg: 75%;
+    --container-width-md: 85%;
+    --container-width-sm: 90%;
+    
+    --transition: all 300ms ease;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+body {
+    font-family: 'Oswald', sans-serif;
+    background-color: var(--backgroundColor);
+    color: white;
+    line-height: 2;
+    background-image: url(../src/assets/textureBackground.png);
+}
+
+/* ----------------Page Styling---------------- */
+.container {
+    width: var(--container-width-lg);
+    margin: 0 auto;
+}
+
+h1,h2,h3,h4,h5 {
+    font-weight: 500;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+section {
+    margin-top: 7rem;
+    height: 100vh;
+}
+
+section h2 {
+    text-align: center;
+    color: var(--primaryColor);
+    margin-bottom: 3rem;
+}
+
+section h5 {
+    text-align: center;
+    color: var(--lightColor);
+}
+
+.textLight {
+    color: var(--lightColor);
+    transition: var(--transition);
+}
+
+a {
+    color: black;
+    transition: var(--transition);
+ }
+ a:hover {
+    color: var(--backgroundColor);
+ }
+ 
+ .btn {
+    width: max-content;
+    display: inline-block;
+    color: black;
+    padding: 0.75rem 1.2rem;
+    border-radius: .5rem;
+    cursor: pointer;
+    border: 1px solid var(--primaryColor);
+    transition: var(--transition);
+ }
+ 
+ .btn:hover{
+     background: var(--backgroundColor);
+     color: var(--primaryColor);
+     border-color: transparent;
+ }
+ 
+ .primaryBtn {
+     background-color: var(--primaryColor);
+     color: black;
+ }
+ 
+ img {
+     display: block;
+     width: 100%;
+     object-fit: cover;
+ }
+ 
+ /* ----------------Media Queries (TABLETS)---------------- */
+ @media screen and (max-width: 1024px) {
+    .container {
+      width: var(--container-width-md);
+    }
+    
+    section {
+        margin-top: 6rem;
+    }
+  }
+ 
+  /* ----------------Media Queries (PHONES)---------------- */
+  @media screen and (max-width: 600px) {
+    .container {
+      width: var(--container-width-sm);
+    }
+    
+    section h2 {
+        margin-bottom: 2rem;
+    }
+  }
